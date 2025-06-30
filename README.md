@@ -40,6 +40,13 @@ We define "clutch" using the **NBA's official criteria**:
 - **Matplotlib / Seaborn**: Visualization
 - **Jupyter Notebooks**: Interactive analysis
 
+## Future Enhancements
+Add interactive dashboards (e.g., Plotly, Streamlit)
+
+Expand analysis to multiple seasons
+
+Compare regular-season vs. playoff clutch stats
+
 ## Insights
 Top Clutch Scorers: Players with the most field goals in clutch time
 
