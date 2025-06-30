@@ -1,33 +1,50 @@
-# Nba-2019-20-PlayByPlay-Analysis
+# 🏀 Clutch Performance Analysis — NBA Play-by-Play (2019–20 Season)
 
-This repository contains structured play-by-play data from the 2019-2020 NBA season in CSV format. It is intended for sports analytics enthusiasts, data scientists, and developers interested in exploring basketball data, player performance trends, and event-driven modeling.
+This project dives into **NBA play-by-play data** from the 2019–2020 season to identify and analyze **clutch performers** — players and moments that mattered most when the game was on the line.
 
-📁 File Overview
-2019-20_pbp.csv
-- Contains timestamped play-by-play events from the 2019–2020 NBA season, including:
-- Game metadata (date, teams, periods)
-- Event types (shots, fouls, substitutions, etc.)
-- Player actions (e.g., assists, steals, blocks)
-- Points scored per possession
-- Possession identifiers and context data
+---
 
-🔍 Use Cases
-- Player and team performance analysis
-- Event modeling and win probability estimation
-- Shot chart creation and heatmaps
-- Training machine learning models on in-game events
+## 🎯 Objective
 
-🛠 Tools & Libraries
-- This dataset is suitable for use with:
-- Pandas and NumPy for data manipulation
-- Matplotlib, Seaborn, or Plotly for visualization
-- Scikit-learn or XGBoost for predictive modeling
-- SQLite or DuckDB for querying large game datasets
+The goal is to analyze play-by-play data and answer:
 
-🧪 Example Analyses (Coming Soon)
-- Offensive rating comparison by team
-- Player clutch performance metrics
-- Win probability curves by quarter
+> **Who performs best in clutch situations?**
 
-📜 License
-- This dataset is for educational and non-commercial purposes only. All NBA-related intellectual property belongs to the NBA.
+We define "clutch" using the **NBA's official criteria**:
+- The **last 5 minutes of the 4th quarter or overtime**, **AND**
+- The **score difference is 5 points or fewer**
+
+---
+
+## Key Questions Explored
+
+- When do clutch situations occur most frequently?
+- Which players scored the most clutch points?
+- What teams executed best under pressure?
+- Who had the most efficient performance in clutch moments?
+
+---
+
+## Dataset
+
+- `2019-20_pbp.csv`
+- Contains play-by-play event data from the 2019–2020 NBA season
+- Includes time, score, player actions, teams, and periods
+
+---
+
+## Tools & Technologies
+
+- **Python**: Main analysis engine
+- **Pandas**: Data manipulation
+- **Matplotlib / Seaborn**: Visualization
+- **Jupyter Notebooks**: Interactive analysis
+
+## Insights
+Top Clutch Scorers: Players with the most field goals in clutch time
+
+Clutch Accuracy: Shooting percentage in clutch vs. non-clutch
+
+Team Performance: Which teams gained/lost leads in clutch time
+
+Play Types: Distribution of shots, free throws, and turnovers under pressure
